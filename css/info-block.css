@@ -1,0 +1,8 @@
+.info-block {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    text-transform: uppercase ;
+    justify-content: center;
+    align-items: center;
+}

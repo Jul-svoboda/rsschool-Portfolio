@@ -4,20 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Professional Photographer</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/burger.css">
+    <link rel="stylesheet" href="css/info-block.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nomination.css">
+    <link rel="stylesheet" href="css/statistics.css">
+    <link rel="stylesheet" href="css/promo.css">
+    <link rel="stylesheet" href="css/scroll-down.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&wdth@75..125&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <header class="header">
-      <div class="wrapper">
-        <a href="#" class="logo"
-          ><img src="img/icon.svg" alt="One little heart"
-        /></a>
+      <div class="wrapper header__wrapper">
+        <a href="#" class="logo">
+            <img src="img/icons/icon.svg" alt="One little heart" />
+        </a>
+        <button class="burger" aria-label="Open menu">
+            <span class="burger__line--short"></span>
+            <span class="burger__line"></span>
+        </button>
         <nav class="header__navigation">
           <ul class="info-block">
-            <li>about me</li>
-            <li>portfolio</li>
-            <li>price</li>
-            <li>faq</li>
-            <li>contacts</li>
+            <li class="info-block__item font-component">about me</li>
+            <li class="info-block__item font-component">portfolio</li>
+            <li class="info-block__item font-component">price</li>
+            <li class="info-block__item font-component">faq</li>
+            <li class="info-block__item font-component">contacts</li>
           </ul>
         </nav>
       </div>
@@ -33,15 +49,15 @@
           <div class="promo__main-information">
             <div class="statistics">
               <div class="statistics__item">
-                <p class="statistics__number font-decor">+ 487</p>
+                <p class="statistics__number font-decoration">+ 487</p>
                 <p class="statistics__text">Photo sessions</p>
               </div>
               <div class="statistics__item">
-                <p class="statistics__number font-decor">+ 356</p>
+                <p class="statistics__number font-decoration">+ 356</p>
                 <p class="statistics__text">Satisfied clients</p>
               </div>
             </div>
-            <h1>Professional photographer</h1>
+            <h1 class="promo__title">Professional photographer</h1>
             <h3>Capture the Moment. Tell Your Story.</h3>
             <div class="scroll-down">
               <p>Scroll down</p>
@@ -49,13 +65,10 @@
             </div>
           </div>
           <div class="promo__photo">
-            <img src="img/promo/" alt="Promo picture" />
+            <img src="img/promo/promo-photo1.png" alt="Promo picture" />
           </div>
           <div class="promo__portrait-block portrait-block">
-            <img
-              src="img/promo/promo-portrait.png"
-              alt="Promo photo portrait"
-            />
+            <img class="portrait-block__photo" src="img/promo/promo-photo2.png" alt="Promo photo portrait" />
             <p class="portrait-block__text">
               Hi! I&rsquo;m Vera, a&nbsp;photographer. For&nbsp;me, photography
               is&nbsp;more than just an&nbsp;image.
@@ -68,7 +81,7 @@
       <div class="wrapper">
         <div class="person-cards">
           <div class="person-cards__item">
-            <img src="img/about-me/photo1.png" alt="photo" />
+            <img src="img/about-me/person-cards-photo1.png" alt="photo" />
             <h2 class="person-cards__title">about me</h2>
             <p class="person-cards__text">
               Hi! I&rsquo;m Vera, a&nbsp;photographer with 5&nbsp;years
@@ -79,7 +92,7 @@
             </p>
           </div>
           <div class="person-cards__item">
-            <img src="img/about-me/photo2.png" alt="photo" />
+            <img src="img/about-me/person-cards-photo2.png" alt="photo" />
             <p class="person-cards__text">
               I&nbsp;shoot all across Europe. I&nbsp;love natural light, genuine
               emotions, and beautiful details. Each shot is&nbsp;a&nbsp;small
@@ -88,7 +101,7 @@
             </p>
           </div>
           <div class="person-cards__item">
-            <img src="img/about-me/photo3.png" alt="photo" />
+            <img src="img/about-me/person-cards-photo3.png" alt="photo" />
             <p class="person-cards__text">
               Seeing with heart. Shooting with soul.
             </p>
@@ -106,22 +119,22 @@
       </div>
       <div class="portfolio__gallery works">
         <div class="works__item">
-          <img src="img/portfolio/photo1.png" alt="example of works" />
+          <img src="img/portfolio/works-photo1.png" alt="example of works" />
         </div>
         <div class="works__item">
-          <img src="img/portfolio/photo2.png" alt="example of works" />
+          <img src="img/portfolio/works-photo2.png" alt="example of works" />
         </div>
         <div class="works__item">
-          <img src="img/portfolio/photo3.png" alt="example of works" />
+          <img src="img/portfolio/works-photo3.png" alt="example of works" />
         </div>
         <div class="works__item">
-          <img src="img/portfolio/photo4.png" alt="example of works" />
+          <img src="img/portfolio/works-photo4.png" alt="example of works" />
         </div>
         <div class="works__item">
-          <img src="img/portfolio/photo5.png" alt="example of works" />
+          <img src="img/portfolio/works-photo5.png" alt="example of works" />
         </div>
         <div class="works__item">
-          <img src="img/portfolio/photo6.png" alt="example of works" />
+          <img src="img/portfolio/works-photo6.png" alt="example of works" />
         </div>
       </div>
     </section>
@@ -383,5 +396,6 @@
         </ul>
       </div>
     </footer>
+    <script src="js/header-burger.js"></script>
   </body>
 </html>
