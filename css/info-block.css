@@ -5,4 +5,8 @@
     text-transform: uppercase ;
     justify-content: center;
     align-items: center;
+
+    @media (min-width: 1200px) {
+        flex-direction: row;
+    }
 }

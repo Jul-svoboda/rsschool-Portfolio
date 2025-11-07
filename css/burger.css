@@ -3,6 +3,10 @@
     height: 20px;
     position: relative;
     cursor: pointer;
+
+    @media (min-width: 1200px) {
+        display: none;
+    }
 }
 
 .burger__line {

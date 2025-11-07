@@ -1,0 +1,20 @@
+.about-me {
+    background-color: var(--color-light);
+    padding: 60px 0;
+}
+
+.person-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.person-cards__title {
+    padding-top: 40px;
+    color: var(--color-dark);
+}
+
+.person-cards__text {
+    color: var(--color-dark);
+    padding-top: 12px;
+}

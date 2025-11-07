@@ -16,6 +16,10 @@ h1, h2, h3, h4, .font-decoration, .font-component{
     font-family: 'Oswald', sans-serif;
 }
 
+h3, h2, h4 {
+    font-weight: 400;
+}
+
 h1, .font-decoration, .font-component {
     font-weight: 300;
 }
@@ -39,6 +43,7 @@ h1 {
 h2 {
     line-height: 1.25;
     font-size: 32px;
+    text-transform: uppercase;
 }
 
 h3 {
