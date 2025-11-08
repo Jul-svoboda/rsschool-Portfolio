@@ -1,0 +1,8 @@
+.pricing {
+    padding: 60px 0;
+    color: var(--color-dark);
+}
+
+.pricing__desc {
+    padding: 12px 0 40px 0;
+}
