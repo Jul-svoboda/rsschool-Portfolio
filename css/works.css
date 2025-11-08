@@ -1,0 +1,27 @@
+.works {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: auto;
+    justify-content: center;
+    scrollbar-width: none;
+}
+
+.works__item--center {
+    align-self: center;
+    flex: 0 0 auto;
+}
+
+.works__item--bottom {
+    align-self: end;
+    flex: 0 0 auto;
+}
+
+.works__item--free {
+    padding-top: 120px;
+    flex: 0 0 auto;
+}
+
+.works__item--top {
+    flex: 0 0 auto;
+}

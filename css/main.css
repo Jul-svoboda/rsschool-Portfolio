@@ -74,3 +74,18 @@ h4, p {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.big-picture {
+    width: 400px;
+    height: 534px;
+}
+
+.middle-picture {
+    width: 280px;
+    height: 374px;
+}
+
+.small-picture {
+    width: 220px;
+    height: 220px;
+}
