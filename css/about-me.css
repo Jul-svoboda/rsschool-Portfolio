@@ -1,20 +1,51 @@
 .about-me {
     background-color: var(--color-light);
     padding: 60px 0;
+    color: var(--color-dark);
 }
 
 .person-cards {
     display: flex;
     flex-direction: column;
     gap: 40px;
+
+    @media (min-width: 1200px) {
+        flex-direction: row;
+    }
 }
 
-.person-cards__title {
-    padding-top: 40px;
-    color: var(--color-dark);
+.person-cards__item {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex: 1;
 }
 
-.person-cards__text {
-    color: var(--color-dark);
-    padding-top: 12px;
+.person-cards__item--inverted {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+    flex: 1;
+
+    @media (min-width: 1200px) {
+        justify-content: space-between;
+    }
+}
+
+.person-cards__text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.person-cards__photo {
+    width: 100%;
+}
+
+.person-cards__photo--hidden {
+    display: none;
+
+    @media (min-width: 1200px) {
+        display: block;
+    }
 }

@@ -1,5 +1,6 @@
 .promo {
     position: relative;
+    background-color: var(--color-dark);
     @media (min-width: 768px) {
         padding-left: 80px;
     }
