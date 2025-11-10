@@ -8,7 +8,7 @@
     color: var(--color-light);
     padding: 18px 0;
     width: 100%;
-    border-block-end: solid 1px;
+    border-block-end: solid 1px var(--color-light);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +28,11 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+}
+
+.accordion__question-active:hover {
+    cursor: pointer;
+    color: var(--color-accent);
 }
 
 .accordion__answer {
