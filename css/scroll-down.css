@@ -12,6 +12,11 @@
     }
 }
 
+.scroll-down:hover {
+    color: var(--color-accent);
+    cursor: pointer;
+}
+
 .scroll-down__arrow {
   width: 24px;
   height: 24px;
@@ -19,4 +24,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+.scroll-down__arrow:hover {
+    color: var(--color-accent);
+    cursor: pointer;
 }

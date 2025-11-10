@@ -5,8 +5,14 @@
     text-transform: uppercase ;
     justify-content: center;
     align-items: center;
+    list-style-type: none;
 
     @media (min-width: 1200px) {
         flex-direction: row;
     }
+}
+
+.info-block__item:hover {
+    color: var(--color-accent);
+    cursor: pointer;
 }
