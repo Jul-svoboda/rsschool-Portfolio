@@ -1,0 +1,46 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+}
+
+.form__input--text {
+    height: 60px;
+    border: solid 1px;
+    padding: 0 12px;
+    width: 100%;
+}
+
+.form__input--text::placeholder {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.25;
+    color: var(--color-form);
+}
+
+.form__input--number {
+    height: 60px;
+    border: solid 1px;
+    padding: 0 12px;
+    width: 100%;
+}
+
+.form__input--number::placeholder {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.25;
+    color: var(--color-dark);
+}
+
+.form__button {
+    @media (min-width: 768px) {
+        max-width: 200px;
+    }
+}
