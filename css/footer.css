@@ -1,0 +1,10 @@
+.footer {
+    background-color: var(--color-dark);
+    padding: 20px 0;
+}
+
+.footer__info-block {
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+}
