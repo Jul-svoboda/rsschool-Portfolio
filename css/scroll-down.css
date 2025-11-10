@@ -1,5 +1,7 @@
 .scroll-down {
     display: none;
+    position: relative;
+    width: 119px;
 
     @media (min-width: 768px) {
         display: flex;
@@ -17,16 +19,32 @@
     cursor: pointer;
 }
 
-.scroll-down__arrow {
-  width: 24px;
-  height: 24px;
-  background-image: url("../img/scroll-down/arrow-down.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+.scroll-down__line-vertical {
+    position: absolute;
+    right: 13px;
+    bottom: 5px;
+    width: 14px;
+    border-bottom: solid 1.5px;
+    transform-origin: right bottom;
+    transform: rotate(90deg);
 }
 
-.scroll-down__arrow:hover {
-    color: var(--color-accent);
-    cursor: pointer;
+.scroll-down__line-arrow-left {
+    position: absolute;
+    right: 12px;
+    bottom: 5px;
+    height: 7px;
+    border-right: solid 1.5px;
+    transform-origin: left bottom;
+    transform: rotate(-45deg);
+}
+
+.scroll-down__line-arrow-right {
+    position: absolute;
+    right: 12px;
+    bottom: 5px;
+    height: 7px;
+    border-right: solid 1.5px;
+    transform-origin: right bottom;
+    transform: rotate(45deg);
 }

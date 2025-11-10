@@ -15,6 +15,11 @@
     position: relative;
 }
 
+.accordion__question:hover {
+    cursor: pointer;
+    color: var(--color-accent);
+}
+
 .accordion__question-active {
     color: var(--color-light);
     padding: 18px 0;
